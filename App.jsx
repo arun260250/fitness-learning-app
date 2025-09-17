@@ -70,14 +70,14 @@ function StartScreen({ studentName, setStudentName, onStart }) {
       <div className="space-y-4">
         <div className="text-center">
           <div className="text-3xl font-extrabold">ชื่อโครงงาน: กล้ามเนื้อแข็งแรง</div>
-          <div className="mt-2 text-gray-600">ทำโดย _______________________</div>
+          <div className="mt-2 text-gray-600">ทำโดย ล่าคนนอนน้อย แต่ก็เยอะนะ</div>
         </div>
         <div className="grid gap-2">
           <label className="text-sm text-gray-600">กรอกชื่อผู้เรียน</label>
           <input
             value={studentName}
             onChange={(e) => setStudentName(e.target.value)}
-            placeholder="เช่น กิตติพงศ์ ใจดี"
+            placeholder="เช่น คนสวย ใจดี"
             className="w-full rounded-xl border px-4 py-3"
           />
         </div>
