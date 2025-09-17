@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://USERNAME.github.io/fitness-learning-app",
+  "homepage": "https://arun260250.github.io/fitness-learning-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
